@@ -185,9 +185,33 @@ margin: 0 auto;       /* centers the border within the div*/
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center; /*image is approx 300px by 300px*/
     height: 100%;
     border-radius: 50%;
-
-
 }
+
+    
+    /*event times*/
+    #times {
+        background-image: url('../images/times-background.webp');   /* approx 1400 x 400*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    #times div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 20%;              /*each of the 5 panels takes up 20%*/
+        height: 300px;
+        float: left;    /*height wont work correctly without the float*/
+        padding: 30px 0 0 10px;
+        text-align: center;
+        border: 2px solid white;
+        box-sizing: border-box;  /*includes the white border into the 20% assigned to div previously */
+    }
+
+    #times h2 {
+        color: #fafafa;
+    }
