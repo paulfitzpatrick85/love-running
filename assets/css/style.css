@@ -281,7 +281,7 @@ margin: 0 auto;       /* centers the border within the div*/
             padding: 0;
          }
 
-         #times > div {
+         #times > div {             /*only needs to be done once and will tricle down to smaller screen sizes*/
              width: 100%;
              clear: both;  /*stacks divs vertically*/
              height: 150px;
