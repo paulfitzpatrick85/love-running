@@ -281,6 +281,13 @@ margin: 0 auto;       /* centers the border within the div*/
             padding: 0;
          }
 
+         #times > div {
+             width: 100%;
+             clear: both;  /*stacks divs vertically*/
+             height: 150px;
+             padding: 0;
+         }
+
          hr {
              display: none;
          }
