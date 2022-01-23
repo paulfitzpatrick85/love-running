@@ -266,7 +266,7 @@ footer{
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: absolute;  /*ensures form maintains it's structural integrity and positioning across device sizes set its position*/
     left: 10%;
     padding: 30px;
     }
